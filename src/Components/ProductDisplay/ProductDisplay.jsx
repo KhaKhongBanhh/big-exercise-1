@@ -34,14 +34,14 @@ const ProductDisplay = (props) => {
                     <p>(122)</p>
                 </div>
                 <div className="productdisplay-right-prices">
-                    <div className="productdisplay-right-price-old">${product.old_price}</div>
-                    <div className="productdisplay-right-price-new">${product.new_price}</div>
+                    <div className="productdisplay-right-price-old">{product.old_price}VNĐ</div>
+                    <div className="productdisplay-right-price-new">{product.new_price}VNĐ</div>
                 </div>
                 <div className="productdisplay-right-description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum?
                 </div>
                 <div className="productdisplay-right-size">
-                    <h1>Select Size</h1>
+                    <h1>Chọn size</h1>
                     <div className="productdisplay-right-sizes">
                         <div>S</div>
                         <div>M</div>
@@ -50,9 +50,9 @@ const ProductDisplay = (props) => {
                         <div>XXL</div>
                     </div>
                 </div>
-                <button onClick={() => {addToCart(product.id)}}> ADD TO CART</button>
-                <p className='productdisplay-right-category'> <span>Category :</span> Women, T-shirt, Crop Top</p>
-                <p className='productdisplay-right-category'> <span>Tags :</span> Modern, Latest</p>
+                <button onClick={() => {addToCart(product.id)}}> THÊM VÀO GIỎ</button>
+                <p className='productdisplay-right-category'> <span>Danh mục :</span> Women, T-shirt, Crop Top</p>
+                <p className='productdisplay-right-category'> <span>Thẻ :</span> Hiện đại, Cổ điển</p>
             </div>
         </div>
     );

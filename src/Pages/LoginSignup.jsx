@@ -5,17 +5,17 @@ const LoginSignup = () => {
     return (
         <div className='loginsignup'>
             <div className="loginsignup-container">
-                <h1>Sign Up</h1>
+                <h1>Đăng nhập</h1>
                 <div className='loginsignup-fields'>
-                    <input type="text" placeholder='Your Name' />
-                    <input type="email" placeholder='Email Address' />
-                    <input type="password" placeholder='Password' />
+                    <input type="text" placeholder='Tên của bạn' />
+                    <input type="email" placeholder='Địa chỉ Email' />
+                    <input type="password" placeholder='Mật khẩu' />
                 </div>
-                <button>Continue</button>
-                <p className='loginsignup-login'>Already have an account? <span>Login here</span></p>
+                <button>Đăng nhập</button>
+                <p className='loginsignup-login'>Bạn đã có tài khoản? <span>Đăng nhập ở đây</span></p>
                 <div className='loginsignup-agree'>
                     <input type="checkbox" name='' id='' />
-                    <p>By continuing, I agree to the term of use & privacy policy.</p>
+                    <p>Để tiếp tục, hãy đồng ý với điều khoản và chính sách.</p>
                 </div>
             </div>
         </div>

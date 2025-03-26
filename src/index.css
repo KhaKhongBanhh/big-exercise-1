@@ -9,7 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'poppins';
+  /* font-family: 'poppins'; */
+  font-family: Helvetica, sans-serif;
 }
 
 code {

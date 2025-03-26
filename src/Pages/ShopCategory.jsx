@@ -10,14 +10,14 @@ const ShopCategory = (props) => {
     const {all_product} = useContext(ShopContext);
     
     return (
-        <div className='shop-category'>
+        <div className='shop-category' lang='vi'>
             <img className='shopcategory-banner' src={props.banner} alt="" />
             <div className='shopcategory-indexSort'>
                 <p>
-                    <span>Showing 1-12</span> out of 36 products
+                    <span>Hiện từ 1-12</span> trong 36 kết quả
                 </p>
             <div className='shopcategory-sort'>
-                Sort by <img src={dropdown_icon} alt="" />
+                Sắp xếp <img src={dropdown_icon} alt="" />
             </div>
             </div>
             <div className='shopcategory-products'>
@@ -31,7 +31,7 @@ const ShopCategory = (props) => {
                 })}
             </div>
             <div className='shopcategory-loadmore'>
-                Explore More
+                Hiện thêm
             </div>
         </div>
     );
